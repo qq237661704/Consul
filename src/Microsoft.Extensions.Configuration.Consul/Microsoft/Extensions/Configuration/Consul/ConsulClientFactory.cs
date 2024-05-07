@@ -1,7 +1,11 @@
- 
-using Consul;
 
-namespace Extensions.Configuration.Consul
+
+using Consul;
+using Microsoft;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+ 
+namespace Microsoft.Extensions.Configuration.Consul
 {
     internal sealed class ConsulClientFactory : IConsulClientFactory
     {

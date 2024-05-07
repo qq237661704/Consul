@@ -12,6 +12,12 @@ using Moq;
 using Extensions.Configuration.Consul.Parsers;
 using Xunit;
 using Range = Moq.Range;
+using Extensions.Configuration.Consul.Microsoft;
+using Extensions.Configuration.Consul.Microsoft.Parsers;
+using Microsoft.Configuration.Consul;
+using Microsoft.Configuration.Consul.Parsers;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 
 namespace Extensions.Configuration.Consul
 {

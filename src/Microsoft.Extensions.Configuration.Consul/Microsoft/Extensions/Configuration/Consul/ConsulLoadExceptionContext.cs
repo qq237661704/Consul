@@ -1,9 +1,8 @@
-// Copyright (c)  All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
+using Microsoft.Extensions.Configuration.Consul;
 using System;
 
-namespace Extensions.Configuration.Consul
+namespace Microsoft.Extensions.Configuration.Consul
 {
     /// <summary>
     ///     Contains information about exceptions that occur during a configuration load from Consul.

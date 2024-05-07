@@ -1,6 +1,9 @@
-using Consul;
 
-namespace Extensions.Configuration.Consul
+using Consul;
+using Microsoft;
+using Microsoft.Extensions.Configuration.Consul;
+
+namespace Microsoft.Extensions.Configuration.Consul
 {
     /// <summary>A factory responsible for creating <see cref="IConsulClient" /> objects.</summary>
     internal interface IConsulClientFactory

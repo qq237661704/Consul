@@ -1,13 +1,14 @@
- 
 using Consul;
-using Extensions.Configuration.Consul.Extensions;
+using Microsoft;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
 using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Extensions.Configuration.Consul
+namespace Microsoft.Extensions.Configuration.Consul
 {
     /// <summary>
     ///     Each instance loads configuration for the key in Consul that is specified in

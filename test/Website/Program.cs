@@ -1,6 +1,9 @@
 using System;
+using Extensions.Configuration.Consul.Microsoft;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Configuration.Consul;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
 using Microsoft.Extensions.Hosting;
 
 namespace Extensions.Configuration.Consul.Website

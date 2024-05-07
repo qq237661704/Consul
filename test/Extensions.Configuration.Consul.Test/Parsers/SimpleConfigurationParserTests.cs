@@ -1,7 +1,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Extensions.Configuration.Consul.Microsoft.Parsers;
 using FluentAssertions;
+using Microsoft.Configuration.Consul.Parsers;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 using Xunit;
 
 namespace Extensions.Configuration.Consul.Parsers

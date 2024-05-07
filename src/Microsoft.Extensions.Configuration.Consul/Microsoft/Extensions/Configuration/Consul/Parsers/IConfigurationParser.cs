@@ -1,8 +1,12 @@
 
 using System.Collections.Generic;
 using System.IO;
+using Microsoft;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 
-namespace Extensions.Configuration.Consul.Parsers
+namespace Microsoft.Extensions.Configuration.Consul.Parsers
 {
     /// <summary>
     ///     Defines how the configuration loaded from Consul should be parsed.

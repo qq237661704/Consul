@@ -1,7 +1,10 @@
 ﻿using System;
+using Extensions.Configuration.Consul.Microsoft;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Configuration.Consul;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
 
 namespace Extensions.Configuration.Consul.Net461Website
 {

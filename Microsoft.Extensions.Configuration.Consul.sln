@@ -26,9 +26,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{972A51CA-2
 		test\Rules.ruleset = test\Rules.ruleset
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Configuration.Consul", "src\Extensions.Configuration.Consul\Extensions.Configuration.Consul.csproj", "{B5C08CE5-B60B-485F-B78F-A119B8AA8508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.Consul", "src\Microsoft.Extensions.Configuration.Consul\Microsoft.Extensions.Configuration.Consul.csproj", "{B5C08CE5-B60B-485F-B78F-A119B8AA8508}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extensions.Configuration.Consul.Test", "test\Extensions.Configuration.Consul.Test\Extensions.Configuration.Consul.Test.csproj", "{6A8821FC-BE1A-4EC8-8A51-73105458CC85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Extensions.Configuration.Consul.Test", "test\Microsoft.Extensions.Configuration.Consul.Test\Microsoft.Extensions.Configuration.Consul.Test.csproj", "{6A8821FC-BE1A-4EC8-8A51-73105458CC85}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Website", "test\Website\Website.csproj", "{44386D3A-3926-410D-AAD6-3820E17D712A}"
 EndProject

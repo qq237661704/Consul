@@ -1,11 +1,16 @@
 ﻿
+using Consul;
+using Microsoft;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Consul;
 
-namespace Extensions.Configuration.Consul.Extensions
+namespace Microsoft.Extensions.Configuration.Consul.Extensions
 {
     internal static class KVPairQueryResultExtensions
     {

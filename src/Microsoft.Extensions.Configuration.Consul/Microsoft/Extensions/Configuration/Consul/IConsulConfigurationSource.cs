@@ -1,13 +1,16 @@
 
+
 using Consul;
-using Extensions.Configuration.Consul.Parsers;
+using Microsoft;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 
-namespace Extensions.Configuration.Consul
+namespace Microsoft.Extensions.Configuration.Consul
 {
     /// <inheritdoc />
     /// <summary>

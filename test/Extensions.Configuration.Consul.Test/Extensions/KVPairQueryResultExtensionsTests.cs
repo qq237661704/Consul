@@ -7,6 +7,9 @@ using FluentAssertions;
 using Moq;
 using Extensions.Configuration.Consul.Parsers;
 using Xunit;
+using Extensions.Configuration.Consul.Microsoft.Extensions;
+using Microsoft.Configuration.Consul.Extensions;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
 
 namespace Extensions.Configuration.Consul.Extensions
 {

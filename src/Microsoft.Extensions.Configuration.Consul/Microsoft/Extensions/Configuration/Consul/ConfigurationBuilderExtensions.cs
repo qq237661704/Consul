@@ -1,8 +1,11 @@
- 
-using System;
+using Microsoft;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using System;
 
-namespace Extensions.Configuration.Consul
+namespace Microsoft.Extensions.Configuration.Consul
 {
     /// <summary>
     ///     Extensions for the <see cref="IConfigurationBuilder" /> that provide syntactic sugar for

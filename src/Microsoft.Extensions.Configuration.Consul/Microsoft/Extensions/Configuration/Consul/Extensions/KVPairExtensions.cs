@@ -1,10 +1,16 @@
+using Consul;
+using Microsoft;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Configuration.Consul;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
+using Microsoft.Extensions.Configuration.Consul.Extensions;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Consul;
-using Extensions.Configuration.Consul.Parsers;
 
-namespace Extensions.Configuration.Consul.Extensions
+namespace Microsoft.Extensions.Configuration.Consul.Extensions
 {
     internal static class KVPairExtensions
     {

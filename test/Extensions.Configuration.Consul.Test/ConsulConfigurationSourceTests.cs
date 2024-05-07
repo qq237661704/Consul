@@ -6,6 +6,9 @@ using Consul;
 using FluentAssertions;
 using Extensions.Configuration.Consul.Parsers;
 using Xunit;
+using Extensions.Configuration.Consul.Microsoft.Parsers;
+using Microsoft.Configuration.Consul.Parsers;
+using Microsoft.Extensions.Configuration.Consul.Parsers;
 
 namespace Extensions.Configuration.Consul
 {
