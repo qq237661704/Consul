@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace Winton.Extensions.Configuration.Consul.Net461Website
+namespace Extensions.Configuration.Consul.Net461Website
 {
     internal sealed class Startup
     {

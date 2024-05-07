@@ -1,13 +1,10 @@
-// Copyright (c) Winton. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using Consul;
-using Winton.Extensions.Configuration.Consul.Parsers;
+using Extensions.Configuration.Consul.Parsers;
 
-namespace Winton.Extensions.Configuration.Consul.Extensions
+namespace Extensions.Configuration.Consul.Extensions
 {
     internal static class KVPairExtensions
     {

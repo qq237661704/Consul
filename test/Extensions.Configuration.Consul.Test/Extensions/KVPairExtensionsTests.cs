@@ -4,10 +4,10 @@ using System.IO;
 using Consul;
 using FluentAssertions;
 using Moq;
-using Winton.Extensions.Configuration.Consul.Parsers;
+using Extensions.Configuration.Consul.Parsers;
 using Xunit;
 
-namespace Winton.Extensions.Configuration.Consul.Extensions
+namespace Extensions.Configuration.Consul.Extensions
 {
     public class KVPairExtensionsTests
     {

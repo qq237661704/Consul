@@ -1,10 +1,8 @@
-// Copyright (c) Winton. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
+ 
 using System;
 using Microsoft.Extensions.Configuration;
 
-namespace Winton.Extensions.Configuration.Consul
+namespace Extensions.Configuration.Consul
 {
     /// <summary>
     ///     Extensions for the <see cref="IConfigurationBuilder" /> that provide syntactic sugar for

@@ -1,15 +1,13 @@
-// Copyright (c) Winton. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
+ 
+using Consul;
+using Extensions.Configuration.Consul.Extensions;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Consul;
-using Microsoft.Extensions.Configuration;
-using Winton.Extensions.Configuration.Consul.Extensions;
 
-namespace Winton.Extensions.Configuration.Consul
+namespace Extensions.Configuration.Consul
 {
     /// <summary>
     ///     Each instance loads configuration for the key in Consul that is specified in

@@ -1,11 +1,9 @@
-// Copyright (c) Winton. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 using System.Collections.Generic;
 using System.IO;
 using Microsoft.Extensions.Configuration.Json;
 
-namespace Winton.Extensions.Configuration.Consul.Parsers
+namespace Extensions.Configuration.Consul.Parsers
 {
     /// <inheritdoc />
     /// <summary>

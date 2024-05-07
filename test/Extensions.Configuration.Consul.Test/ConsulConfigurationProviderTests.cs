@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 using Consul;
 using FluentAssertions;
 using Moq;
-using Winton.Extensions.Configuration.Consul.Parsers;
+using Extensions.Configuration.Consul.Parsers;
 using Xunit;
 using Range = Moq.Range;
 
-namespace Winton.Extensions.Configuration.Consul
+namespace Extensions.Configuration.Consul
 {
     public class ConsulConfigurationProviderTests
     {

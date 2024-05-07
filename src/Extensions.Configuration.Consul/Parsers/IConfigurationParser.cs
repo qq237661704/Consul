@@ -1,10 +1,8 @@
-// Copyright (c) Winton. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 using System.Collections.Generic;
 using System.IO;
 
-namespace Winton.Extensions.Configuration.Consul.Parsers
+namespace Extensions.Configuration.Consul.Parsers
 {
     /// <summary>
     ///     Defines how the configuration loaded from Consul should be parsed.

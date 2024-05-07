@@ -3,7 +3,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace Winton.Extensions.Configuration.Consul.Net461Website
+namespace Extensions.Configuration.Consul.Net461Website
 {
     /// <summary>
     ///     This project just exists so that it's easy to check runtime compatibility with net461 clients.

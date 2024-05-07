@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using Consul;
 using FluentAssertions;
-using Winton.Extensions.Configuration.Consul.Parsers;
+using Extensions.Configuration.Consul.Parsers;
 using Xunit;
 
-namespace Winton.Extensions.Configuration.Consul
+namespace Extensions.Configuration.Consul
 {
     public class ConsulConfigurationSourceTests
     {

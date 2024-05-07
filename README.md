@@ -1,10 +1,10 @@
-# Winton.Extensions.Configuration.Consul
+# Extensions.Configuration.Consul
 
 Adds support for configuring .NET Core applications using Consul. Works great with [git2consul](https://github.com/Cimpress-MCP/git2consul).
 
-[![NuGet Badge](https://buildstats.info/nuget/Winton.Extensions.Configuration.Consul)](https://www.nuget.org/packages/Winton.Extensions.Configuration.Consul/)
+[![NuGet Badge](https://buildstats.info/nuget/Extensions.Configuration.Consul)](https://www.nuget.org/packages/Extensions.Configuration.Consul/)
 
-[![Build history](https://buildstats.info/github/chart/wintoncode/Winton.Extensions.Configuration.Consul?branch=master)](https://github.com/wintoncode/Winton.Extensions.Configuration.Consul/actions)
+[![Build history](https://buildstats.info/github/chart/wintoncode/Extensions.Configuration.Consul?branch=master)](https://github.com/wintoncode/Extensions.Configuration.Consul/actions)
 
 ## Contents
 
@@ -20,7 +20,7 @@ Adds support for configuring .NET Core applications using Consul. Works great wi
 
 ## Installation
 
-Add `Winton.Extensions.Configuration.Consul` to your project's dependencies, either via the NuGet package manager or as a `PackageReference` in the csproj file.
+Add `Extensions.Configuration.Consul` to your project's dependencies, either via the NuGet package manager or as a `PackageReference` in the csproj file.
 
 ## Usage
 
@@ -68,7 +68,7 @@ Assuming the application is running in the 'Development' environment and the app
    A `bool` that indicates whether the config is optional. If `false` then it will throw during the first load if the config is missing for the given key. Defaults to `false`.
 * **`Parser`**
 
-   The parser to use, which should match the format of the configuration stored in Consul. Defaults to `JsonConfigurationParser`. Either use those under `Winton.Extensions.Configuration.Consul.Parsers` or create your own by implementing `IConfigurationParser`.
+   The parser to use, which should match the format of the configuration stored in Consul. Defaults to `JsonConfigurationParser`. Either use those under `Extensions.Configuration.Consul.Parsers` or create your own by implementing `IConfigurationParser`.
 * **`PollWaitTime`**
 
    The amount of time the client should wait before timing out when polling for changes.

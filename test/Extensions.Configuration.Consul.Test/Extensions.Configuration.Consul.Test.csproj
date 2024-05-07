@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>Winton.Extensions.Configuration.Consul</RootNamespace>
+    <RootNamespace>Extensions.Configuration.Consul</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Winton.Extensions.Configuration.Consul\Winton.Extensions.Configuration.Consul.csproj" />
+    <ProjectReference Include="..\..\src\Extensions.Configuration.Consul\Extensions.Configuration.Consul.csproj" />
   </ItemGroup>
 
   <ItemGroup>

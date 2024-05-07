@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 
-namespace Winton.Extensions.Configuration.Consul.Website
+namespace Extensions.Configuration.Consul.Website
 {
     internal sealed class Program
     {

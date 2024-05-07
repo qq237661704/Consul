@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 
-namespace Winton.Extensions.Configuration.Consul.Website.Controllers
+namespace Extensions.Configuration.Consul.Website.Controllers
 {
     [ApiController]
     [Route("[controller]")]
