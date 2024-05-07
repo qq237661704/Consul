@@ -4,8 +4,7 @@
     <Description>Provides support for configuring .NET Core applications with Consul</Description>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageId>Extensions.Configuration.Consul</PackageId>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/wintoncode/Extensions.Configuration.Consul</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/qq237661704/Consul</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <PackageTags>.NET;Core;dotnetcore;ASP.NET;aspnetcore;configuration;consul;winton;wintoncode</PackageTags>
     <RepositoryType>git</RepositoryType>
@@ -23,11 +22,7 @@
   <ItemGroup>
     <AdditionalFiles Remove="E:\AbpPlato\my-github\Consul\stylecop.json" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Remove="Extensions\KVPairQueryResultExtensions.cs~RF3cf7208f.TMP" />
-  </ItemGroup>
-
+ 
   <ItemGroup>
     <PackageReference Include="Consul" Version="1.6.10.8" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.0" />
